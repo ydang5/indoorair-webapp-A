@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Indoor Air| Dashboard</title>
+</head>
+<body>
+  <script>
+    {% include "dashboard/dashboard.js" %}
+    {% include "dashboard/logout.js" %}
+  </script>
+
+<h1>Indoorair | Dashboard</h1>
+Average Temperature:
+<p id="averageTemperature"></p>
+
+<p>
+
+</p>
+Average Pressure:
+<p id="averagePressure"></p>
+<p>
+
+</p>
+Average CO2:
+<p id="averageCo2"></p>
+<p>
+
+</p>
+Average TVOC:
+<p id="averageTvoc"></p>
+<p>
+
+</p>
+Average Humidity:
+<p id="averageHumidity"></p>
+<p>
+
+</p>
+
+<p>
+
+  <button type="button" onclick = "createInsrtument()">Create Insrtument</button>
+
+</p>
+
+<p>
+
+  <button type="button" onclick = "listInsrtument()">List Insrtument</button>
+
+</p>
+
+<p>
+
+  <button type="button" onclick = "retrieveInsrtument()">Retrieve Insrtument</button>
+
+</p>
+
+
+<p>
+
+  <button type="button" onclick = "updateInsrtument()">Update Insrtument</button>
+
+</p>
+
+<button type = "button" onclick = "onLoginClick()">Logout</button>
+
+</body>
+</html>
